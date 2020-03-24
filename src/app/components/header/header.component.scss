@@ -1,0 +1,13 @@
+@import '../../../styles.scss';
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+    span{
+        background-color: $colorDark;
+        border-radius: 0.5em;
+        color:$colorLight;
+        cursor: pointer;
+        padding: 0.5em;
+    }
+}
